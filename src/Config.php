@@ -65,7 +65,6 @@ class Config{
 		return $data ;
 	}
 	
-	
 	public function set( $name, $value  ){
 		$this->load();
 		$this->data->$name = $value;
