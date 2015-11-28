@@ -9,13 +9,11 @@
          stopOnFailure="false"
          syntaxCheck="false"
 		 verbose="true"
-		 bootstrap="vendor/autoload.php"
-
 >
     <!-- Indicando qual é o diretório onde as classes de teste se encontram -->
     <testsuites>
         <testsuite name="Webunion\Config Unit Test">
-            <directory>./tests/unit/</directory>
+            <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
  
@@ -23,9 +21,10 @@
     dentro temos o exclude (diretórios que não serão executados pelos testes) -->
     <filter>
         <whitelist>
-            <directory suffix=".php">./src/</directory>
+            <directory suffix=".php">./tests/</directory>
             <exclude>
                 <directory suffix=".php">./vendor/</directory>
+                <directory suffix=".php">./tests/_reports/</directory>
             </exclude>
         </whitelist>
     </filter>

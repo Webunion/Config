@@ -2,5 +2,6 @@
 <configuration>
 	<app>
 		<test>TEST</test>
+		<test2>TEST2</test2>
 	</app>
 </configuration>
