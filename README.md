@@ -1,2 +1,2 @@
-# Config
-Simple config class. Support to xml and PHP array files.
+# Utils
+Simple Config Class, read xml and PHP array.
