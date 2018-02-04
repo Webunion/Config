@@ -2,7 +2,7 @@
     "name": "webunion/config",
      "description": "Simple Config Class, read xml and PHP array",
     "keywords": ["config"],
-    "license": "BSD Style",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ricardo Fontanelli",
